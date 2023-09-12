@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 600px;
+    height: 300px;
+}
+
+.container{
+    height: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.btn1{
+    position: relative;
+    width: 100px;
+    height: 60px;
+    left: 40px;
+    top: 100px;
+
+    background-color: blue;
+    color: white;
+}
+
+.btn1:hover{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    left: 40px;
+    top: 100px;
+    background-color: orange;
+    color: white;
+    transition: 2s;
+}
