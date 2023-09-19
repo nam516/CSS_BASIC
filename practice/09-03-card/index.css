@@ -32,17 +32,60 @@ html, body{
         transform: translateY(70px);
         opacity: 0;
     }
-    92%{
+    /* 92%{
         transform: translateY(-10px);
-    }
+    } */
     100%{
         transform: translateY(0);
         opacity: 1;
     }
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 15px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 10px;
+}
+
+.sidebar{
+    width: 170px;
+}
+
+.mainMenu{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.mainMenu ul{
+    padding: 0;
+    display: block;
+}
+
+.mainMenu ul li{
+    list-style: none;
+    display: block;
+}
+
+.mainMenu ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
 .itemWrap{
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
